@@ -1,0 +1,5 @@
+var fs = require('fs')
+var testBuffer = fs.readFileSync('./test.js')
+console.log('tesBuffer', testBuffer)
+var realBuffer = testBuffer.toString()
+console.log('dadada', realBuffer)
